@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Data</title>
+</head>
+<body>
+<form method="post" action="/" >
+    {% csrf_token %}
+Username:<input type="text" name="Username"><br><br>
+First_name:<input type="text" name="first_name"><br><br>
+Last_name:<input type="text" name="last_name"><br><br>
+Email_id:<input type="email" name="email_id"><br><br>
+Password:<input type="password" name="password"><br><br>
+status:<input type="checkbox" name="status"><br><br>
+<input type="submit">
+</form>
+</body>
+</html>
